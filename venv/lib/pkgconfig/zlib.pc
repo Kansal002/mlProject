@@ -1,0 +1,13 @@
+prefix=/home/abhinav/Documents/projects/mlProject/venv
+exec_prefix=/home/abhinav/Documents/projects/mlProject/venv
+libdir=/home/abhinav/Documents/projects/mlProject/venv/lib
+sharedlibdir=/home/abhinav/Documents/projects/mlProject/venv/lib
+includedir=/home/abhinav/Documents/projects/mlProject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
